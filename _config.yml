@@ -8,7 +8,7 @@ middle_name:
 last_name: Yang
 email: yuweny4@illinois.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A simple, whitesp  ace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -139,11 +139,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+enabled: true
 
-related_blog_posts:
-  enabled: true
-  max_related: 5
+#related_blog_posts:
+max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -201,7 +200,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -286,16 +285,9 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
-  # exclude: ["robots.txt", "assets/js/search/*.js"]
-
-# -----------------------------------------------------------------------------
-# Terser
-# -----------------------------------------------------------------------------
-
-terser:
-  compress:
-    drop_console: true
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+  uglifier_args:
+    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -543,14 +535,6 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
     version: "1.9.4"
-  lightbox2:
-    integrity:
-      css: "sha256-uypRbsAiJcFInM/ndyI/JHpzNe6DtUNXaWEUWEPfMGo="
-      js: "sha256-A6jI5V9s1JznkWwsBaRK8kSeXLgIqQfxfnvdDOZEURY="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/css/lightbox.min.css"
-      js: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/js/lightbox.min.js"
-    version: "2.11.5"
   mathjax:
     integrity:
       js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
@@ -590,19 +574,6 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
     version: "10.7.0"
-  photoswipe:
-    integrity:
-      js: "sha256-VCBpdxvrNNxGHNuTdNqK9kPFkev2XY7DYzHdmgaB69Q="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.min.css"
-      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.esm.min.js"
-    version: "5.4.4"
-  photoswipe-lightbox:
-    integrity:
-      js: "sha256-uCw4VgT5DMdwgtjhvU9e98nT2mLZXcw/8WkaTrDd3RI="
-    url:
-      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
-    version: "5.4.4"
   polyfill:
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
@@ -615,13 +586,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
       js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
     version: "2.4.1"
-  spotlight:
-    integrity:
-      css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/css/spotlight.min.css"
-      js: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
-    version: "0.7.8"
   swiper:
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
@@ -662,15 +626,7 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
     version: "5.16.3"
-  venobox:
-    integrity:
-      css: "sha256-ohJEB0/WsBOdBD+gQO/MGfyJSbTUI8OOLbQGdkxD6Cg="
-      js: "sha256-LsGXHsHMMmTcz3KqTaWvLv6ome+7pRiic2LPnzTfiSo="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
-      js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
-    version: "2.1.8"
-
+    
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
