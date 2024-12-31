@@ -13,12 +13,16 @@ profile:
     <p>Champaign, IL, 61820</p>
 
 news: true # includes a list of news items
+posts: false
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first-year master's student at the School of Information Sciences [(iSchool)](https://ischool.illinois.edu/) at the [University of Illinois Urbana-Champaign](https://illinois.edu/), specializing in Information Management and Data Science. I have a background in Health Informatics and Information Security, with a Bachelor of Science degree from [Chang Gung University](https://www.cgu.edu.tw/en). My professional experiences include a Software Test Engineer role at [MediaTek](https://www.mediatek.com/), where I contributed to smart TV firmware quality, and ongoing volunteer research at the School. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My academic journey has been shaped by interdisciplinary interests, including natural language processing, data science, and health informatics. Notably, my undergraduate thesis focused on analyzing COVID-19's evolutionary dynamics using phylogenetic algorithms, while my capstone project involved designing a health promotion model for chronic diseases. My technical expertise spans programming languages like R, Java, and MySQL, alongside experience in Android app development and data visualization.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of academics, I actively participate in leadership roles and collaborative initiatives, such as leading a cybersecurity competition team and planning community volunteer activities. With a passion for leveraging data-driven insights for real-world applications, I aim to contribute innovative solutions to challenges at the intersection of technology and society.
+
+CV: [pdf](yuwenyang-cv.pdf)
