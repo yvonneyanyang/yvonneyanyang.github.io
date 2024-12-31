@@ -305,7 +305,7 @@ ul.task-list input[type="checkbox"] {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
-      }   
+      }
 
       &:hover {
         i::before {
@@ -580,7 +580,6 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
-      padding: 0.75rem 1.15rem;
 
       &:hover {
         color: $black-color;
