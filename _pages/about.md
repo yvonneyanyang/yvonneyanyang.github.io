@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p> 614 E Daniel Street </p>
+    <p> 202 E White Street </p>
     <p> Champaign, IL, 61820 </p>
 
 news: true # includes a list of news items
