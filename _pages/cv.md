@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: Yvonne's Resume
+title: Resume
 nav: true
 nav_order: 5
 cv_pdf: yuwenyang-cv.pdf # you can also use external links here
