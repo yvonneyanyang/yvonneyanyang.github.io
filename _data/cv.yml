@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yu Wen (Yvonne) Yang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 05th Nov 1999
     - name: Languages
-      value: English, German
+      value: English, Mandarin, Taiwanese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master
+      institution: University of Illinois Urbana-Champaign, Champaign, IL
+      year: 2026
       description:
         - Description 1.
         - Description 2.
